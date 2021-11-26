@@ -1,0 +1,16 @@
+{"vector_layers":[
+{"id":"coastl","description":"ne_110m_coastline","minzoom":0,"maxzoom":5,"fields":{}},
+{"id":"graticules","description":"ne_110m_graticules_30","minzoom":0,"maxzoom":3.89,"fields":{}},
+{"id":"landmass","description":"ne_110m_land","minzoom":0,"maxzoom":5,"fields":{}},
+{"id":"river","description":"ne_110m_rivers_lake_centerlines","minzoom":0,"maxzoom":5,"fields":{}}
+],
+"tilestats":{
+ "layerCount":4,
+ "layers":[
+  {"layer":"coastl","count":134,"geometry":"LineString","attributeCount":0,"attributes":[]},
+  {"layer":"graticules","count":17,"geometry":"LineString","attributeCount":0,"attributes":[]},
+  {"layer":"landmass","count":127,"geometry":"Polygon","attributeCount":0,"attributes":[]},
+  {"layer":"river","count":13,"geometry":"LineString","attributeCount":0,"attributes":[]}
+ ]
+}
+}
