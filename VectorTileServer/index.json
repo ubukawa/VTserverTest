@@ -3,7 +3,7 @@
  "name": "ServerTest",
  "capabilities": "TilesOnly",
  "copyrightText": "NaturalEarth",
- "type": "indexedFlat",
+ "type": "indexedVector",
  "defaultStyles": "resources/styles",
  "tiles": [
   "https://ubukawa.github.io/VTserverTest/VectorTileServer/tile/{z}/{x}/{y}.pbf"
