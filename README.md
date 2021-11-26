@@ -3,7 +3,7 @@ Vector tile server test with NaturalEarth data
 
 
 # Vector tile service
-
+Vector Tile Service: https://ubukawa.github.io/VTserverTest/VectorTileServer  
 Tile URL: VectorTileServer/tile/{z}/{x}/{y}.pbf
 
 
