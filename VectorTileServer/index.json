@@ -1,9 +1,10 @@
 {
  "currentVersion": 10.9,
  "name": "ServerTest",
- "capabilities": "TilesOnly",
+ "capabilities": "TilesOnly,Tilemap",
  "copyrightText": "NaturalEarth",
  "type": "indexedVector",
+ "tileMap": "tilemap",
  "defaultStyles": "resources/styles",
  "tiles": [
   "https://ubukawa.github.io/VTserverTest/VectorTileServer/tile/{z}/{x}/{y}.pbf"
