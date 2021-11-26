@@ -39,6 +39,15 @@
       "paint": {"line-color": "rgba(0, 60, 255, 1)"}
     },
     {
+      "id": "coastl",
+      "type": "line",
+      "source": "naturalearth",
+      "source-layer": "coastl",
+      "maxzoom": 6,
+      "minzoom": 0,
+      "paint": {"line-color": "rgba(255, 255, 255, 1)"}
+    },
+    {
       "id": "graticules",
       "type": "line",
       "source": "naturalearth",
