@@ -1,0 +1,50 @@
+{
+  "version": 8,
+  "name": "Test with NaturalEarth",
+  "sources": {
+    "naturalearth": {
+      "type": "vector",
+      "url": "https://ubukawa.github.io/VTserverTest/VectorTileServer/",
+      "minZoom": 0,
+      "maxZoom": 2
+    }
+  },
+  "sprite": "",
+  "glyphs": "",
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "layout": {"visibility": "visible"},
+      "paint": {"background-color": "rgba(0, 98, 98, 1)"}
+    },
+    {
+      "id": "landmass",
+      "type": "fill",
+      "source": "naturalearth",
+      "source-layer": "landmass",
+      "minzoom": 0,
+      "maxzoom": 6,
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(255, 224, 184, 1)"}
+    },
+    {
+      "id": "river",
+      "type": "line",
+      "source": "naturalearth",
+      "source-layer": "riverl",
+      "minzoom": 0,
+      "maxzoom": 6,
+      "layout": {"visibility": "visible"},
+      "paint": {"line-color": "rgba(0, 60, 255, 1)"}
+    },
+    {
+      "id": "graticules",
+      "type": "line",
+      "source": "naturalearth",
+      "source-layer": "graticules30",
+      "maxzoom": 2,
+      "paint": {"line-color": "rgba(255, 255, 255, 1)"}
+    }
+  ]
+}
