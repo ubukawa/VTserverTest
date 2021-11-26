@@ -1,0 +1,1 @@
+tile is stored in {z}/{x}/{y}.pbf
